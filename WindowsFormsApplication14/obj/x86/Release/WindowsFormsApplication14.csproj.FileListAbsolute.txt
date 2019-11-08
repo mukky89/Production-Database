@@ -1,0 +1,136 @@
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.exe.config
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.exe
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.pdb
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.ASC_01.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.BarRevizieFormulare.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.DownStatusBar.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelObjednavky.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Prihlásenie.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Zakazky.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.NovaZakazka.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Properties.Resources.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelFormulare.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChyb.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChybMaterial.resources
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.exe
+C:\Users\mmucka\Desktop\Nový priečinok (2)\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.pdb
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.exe.config
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.exe
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.pdb
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.exe
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.pdb
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.ASC_01.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.BarRevizieFormulare.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.DownStatusBar.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelObjednavky.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Prihlásenie.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Zakazky.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.NovaZakazka.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Properties.Resources.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelFormulare.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChyb.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChybMaterial.resources
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\mmucka\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.exe.config
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.exe
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.pdb
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.ASC_01.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.BarRevizieFormulare.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.DownStatusBar.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelObjednavky.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Prihlásenie.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Zakazky.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.NovaZakazka.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Properties.Resources.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelFormulare.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChyb.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChybMaterial.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.csproj.GenerateResource.Cache
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.exe
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.pdb
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Keyboard.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Layout.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Schedule.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.SuperGrid.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar2.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.Instrumentation.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Keyboard.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Schedule.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.SuperGrid.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar2.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\bin\Release\DevComponents.Instrumentation.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.csprojResolveAssemblyReference.cache
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.STRAIN.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.STRAIN_new.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.MS_01.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.TEMP.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.TEMP_new.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.exe.config
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.exe
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.pdb
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.exe
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\WindowsFormsApplication14.pdb
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Keyboard.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Layout.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Schedule.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.SuperGrid.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar2.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.Instrumentation.dll
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Keyboard.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.Schedule.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar.SuperGrid.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.DotNetBar2.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\bin\Release\DevComponents.Instrumentation.xml
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.csprojResolveAssemblyReference.cache
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.MS_01.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.ASC_01.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.Strain.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.STRAIN_new.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.TEMP.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.TEMP_new.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.BarRevizieFormulare.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.DownStatusBar.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelObjednavky.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Prihlásenie.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Zakazky.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.NovaZakazka.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Properties.Resources.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelFormulare.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChyb.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChybMaterial.resources
+C:\Users\Marek\Desktop\new_DBS_C_šark\FBGS only\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.csproj.GenerateResource.Cache
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Release\DBSV2.exe.config
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.csprojResolveAssemblyReference.cache
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.AboutForm.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.SmartPatch.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Univerzal.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Konektorovanie.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Konektorovanie_original.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.EditZakazky.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.NovyUzivatel.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.Strain.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.STRAIN_new.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.TEMP.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Kalibracie.TEMP_new.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Nastavenia.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Rmax_values.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.FBGS_Report.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.BarRevizieFormulare.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.DownStatusBar.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelObjednavky.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Prihlásenie.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Zakazky.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.NovaZakazka.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.Properties.Resources.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.OvladaciPanelFormulare.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.OvladaciPanelObjednavkySF.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.OvladaciPanelObjednavkyNEW.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.VystupnaKontrolaScr.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChyb.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.UserControls.ZaznamChybMaterial.resources
+C:\Users\mukky\Desktop\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\x86\Release\WindowsFormsApplication14.csproj.GenerateResource.Cache

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="novaDBcsharpModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="novaDBcsharpEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="novaDBcsharpModel.sysdiagrams" />
+    <EntitySet Name="tblObjednavkaDokumenty" EntityType="novaDBcsharpModel.tblObjednavkaDokumenty" />
+    <EntitySet Name="tblObjednavkaMaterial" EntityType="novaDBcsharpModel.tblObjednavkaMaterial" />
+    <EntitySet Name="tblObjednavky" EntityType="novaDBcsharpModel.tblObjednavky" />
+    <EntitySet Name="tblSnimaceZoznam" EntityType="novaDBcsharpModel.tblSnimaceZoznam" />
+    <EntitySet Name="tblUzivatelia" EntityType="novaDBcsharpModel.tblUzivatelia" />
+    <EntitySet Name="tblZakazky" EntityType="novaDBcsharpModel.tblZakazky" />
+    <EntitySet Name="tblZakazkyStav" EntityType="novaDBcsharpModel.tblZakazkyStav" />
+  </EntityContainer>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblObjednavkaDokumenty">
+    <Key>
+      <PropertyRef Name="IdObjednavka" />
+    </Key>
+    <Property Name="IdDokumenty" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="IdObjednavka" Type="Int32" Nullable="false" />
+    <Property Name="Dokument" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="tblObjednavkaMaterial">
+    <Key>
+      <PropertyRef Name="IdObjednakva" />
+    </Key>
+    <Property Name="IdMaterial" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdObjednakva" Type="Int32" Nullable="false" />
+    <Property Name="SylexPN" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="MnozstvoMaterialu" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="tblObjednavky">
+    <Key>
+      <PropertyRef Name="IdObjednavka" />
+    </Key>
+    <Property Name="IdObjednavka" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SylexObjednavka" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Zakazka" Type="Int32" />
+    <Property Name="ZakaznickaObjednavka" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="StavObjednavka" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ObjVytvoril" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ObjVytvorilDatum" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="wlNominal_1" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="wlNominal_2" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Snimac" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="PnVlakna" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="PnVyrobku" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="PopisVlakna" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="LotVlakna" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="PoradoveCisloVlakna" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Rework" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="PocetFBG" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ProcessReportVytvoril" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ProcessReportVytvorilKedy" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ProcessReportCesta" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="KalibracnyListVytvoril" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="KalibracnyListVytvorilKedy" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="KalibracnyListCesta" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="UkonceneKedy" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="UkonceneKto" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ExpedovaneKedy" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ExpedovaneKto" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Oznacenie" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ChybaKedy" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ChybaKto" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="KalibraciaResult" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="OdchylkaInterna" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="OdchylkaZakaznik" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="KontrolaSnimacaUsekomKvality" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="DatumVytvoreniasnimaca" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ontrolaSnimacaUsekomKvalityKto" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ontrolaSnimacaUsekomKvalityKedy" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="tblSnimaceZoznam">
+    <Key>
+      <PropertyRef Name="IdSnimaceZoznam" />
+    </Key>
+    <Property Name="IdSnimaceZoznam" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypSnimaca" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="tblUzivatelia">
+    <Key>
+      <PropertyRef Name="IdUzivatela" />
+    </Key>
+    <Property Name="IdUzivatela" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Skupina" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Meno" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Heslo" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Email" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Opravnenie" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="tblZakazky">
+    <Key>
+      <PropertyRef Name="IdZakazka" />
+    </Key>
+    <Property Name="IdZakazka" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CisloZakazky" Type="Int32" />
+    <Property Name="ZakazkaVytvoril" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ZakazkaVytvorilKedy" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ZakazkaStav" Type="String" MaxLength="20" Unicode="true" FixedLength="true" />
+    <Property Name="Zakaznik" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ZakazkaPoznamky" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Vykladka" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="DatumUkoncenia" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="tblZakazkyStav">
+    <Key>
+      <PropertyRef Name="IdStav" />
+    </Key>
+    <Property Name="IdStav" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StavZakazky" Type="String" MaxLength="20" Unicode="true" FixedLength="true" />
+  </EntityType>
+</Schema>

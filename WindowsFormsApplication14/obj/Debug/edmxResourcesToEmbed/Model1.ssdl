@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="novaDBcsharpModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="novaDBcsharpModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="novaDBcsharpModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblObjednavkaDokumenty" EntityType="novaDBcsharpModel.Store.tblObjednavkaDokumenty" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblObjednavkaMaterial" EntityType="novaDBcsharpModel.Store.tblObjednavkaMaterial" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblObjednavky" EntityType="novaDBcsharpModel.Store.tblObjednavky" store:Type="Tables" store:Schema="dbo" store:Name="tblObjednavky">
+      <DefiningQuery>SELECT 
+      [tblObjednavky].[IdObjednavka] AS [IdObjednavka], 
+      [tblObjednavky].[SylexObjednavka] AS [SylexObjednavka], 
+      [tblObjednavky].[Zakazka] AS [Zakazka], 
+      [tblObjednavky].[ZakaznickaObjednavka] AS [ZakaznickaObjednavka], 
+      [tblObjednavky].[StavObjednavka] AS [StavObjednavka], 
+      [tblObjednavky].[ObjVytvoril] AS [ObjVytvoril], 
+      [tblObjednavky].[ObjVytvorilDatum] AS [ObjVytvorilDatum], 
+      [tblObjednavky].[wlNominal_1] AS [wlNominal_1], 
+      [tblObjednavky].[wlNominal_2] AS [wlNominal_2], 
+      [tblObjednavky].[Snimac] AS [Snimac], 
+      [tblObjednavky].[PnVlakna] AS [PnVlakna], 
+      [tblObjednavky].[PnVyrobku] AS [PnVyrobku], 
+      [tblObjednavky].[PopisVlakna] AS [PopisVlakna], 
+      [tblObjednavky].[LotVlakna] AS [LotVlakna], 
+      [tblObjednavky].[PoradoveCisloVlakna] AS [PoradoveCisloVlakna], 
+      [tblObjednavky].[Rework] AS [Rework], 
+      [tblObjednavky].[PocetFBG] AS [PocetFBG], 
+      [tblObjednavky].[ProcessReportVytvoril] AS [ProcessReportVytvoril], 
+      [tblObjednavky].[ProcessReportVytvorilKedy] AS [ProcessReportVytvorilKedy], 
+      [tblObjednavky].[ProcessReportCesta] AS [ProcessReportCesta], 
+      [tblObjednavky].[KalibracnyListVytvoril] AS [KalibracnyListVytvoril], 
+      [tblObjednavky].[KalibracnyListVytvorilKedy] AS [KalibracnyListVytvorilKedy], 
+      [tblObjednavky].[KalibracnyListCesta] AS [KalibracnyListCesta], 
+      [tblObjednavky].[UkonceneKedy] AS [UkonceneKedy], 
+      [tblObjednavky].[UkonceneKto] AS [UkonceneKto], 
+      [tblObjednavky].[ExpedovaneKedy] AS [ExpedovaneKedy], 
+      [tblObjednavky].[ExpedovaneKto] AS [ExpedovaneKto], 
+      [tblObjednavky].[Oznacenie] AS [Oznacenie], 
+      [tblObjednavky].[ChybaKedy] AS [ChybaKedy], 
+      [tblObjednavky].[ChybaKto] AS [ChybaKto], 
+      [tblObjednavky].[KalibraciaResult] AS [KalibraciaResult], 
+      [tblObjednavky].[OdchylkaInterna] AS [OdchylkaInterna], 
+      [tblObjednavky].[OdchylkaZakaznik] AS [OdchylkaZakaznik], 
+      [tblObjednavky].[KontrolaSnimacaUsekomKvality] AS [KontrolaSnimacaUsekomKvality], 
+      [tblObjednavky].[DatumVytvoreniasnimaca] AS [DatumVytvoreniasnimaca], 
+      [tblObjednavky].[ontrolaSnimacaUsekomKvalityKto] AS [ontrolaSnimacaUsekomKvalityKto], 
+      [tblObjednavky].[ontrolaSnimacaUsekomKvalityKedy] AS [ontrolaSnimacaUsekomKvalityKedy]
+      FROM [dbo].[tblObjednavky] AS [tblObjednavky]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tblObjednavkyStav" EntityType="novaDBcsharpModel.Store.tblObjednavkyStav" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblSnimaceZoznam" EntityType="novaDBcsharpModel.Store.tblSnimaceZoznam" store:Type="Tables" store:Schema="dbo" store:Name="tblSnimaceZoznam">
+      <DefiningQuery>SELECT 
+      [tblSnimaceZoznam].[IdSnimaceZoznam] AS [IdSnimaceZoznam], 
+      [tblSnimaceZoznam].[TypSnimaca] AS [TypSnimaca], 
+      [tblSnimaceZoznam].[Skupina] AS [Skupina]
+      FROM [dbo].[tblSnimaceZoznam] AS [tblSnimaceZoznam]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tblUzivatelia" EntityType="novaDBcsharpModel.Store.tblUzivatelia" store:Type="Tables" store:Schema="dbo" store:Name="tblUzivatelia">
+      <DefiningQuery>SELECT 
+      [tblUzivatelia].[IdUzivatela] AS [IdUzivatela], 
+      [tblUzivatelia].[Skupina] AS [Skupina], 
+      [tblUzivatelia].[Meno] AS [Meno], 
+      [tblUzivatelia].[Heslo] AS [Heslo], 
+      [tblUzivatelia].[Email] AS [Email], 
+      [tblUzivatelia].[Opravnenie] AS [Opravnenie]
+      FROM [dbo].[tblUzivatelia] AS [tblUzivatelia]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tblZakazky" EntityType="novaDBcsharpModel.Store.tblZakazky" store:Type="Tables" store:Schema="dbo" store:Name="tblZakazky">
+      <DefiningQuery>SELECT 
+      [tblZakazky].[IdZakazka] AS [IdZakazka], 
+      [tblZakazky].[CisloZakazky] AS [CisloZakazky], 
+      [tblZakazky].[ZakazkaVytvoril] AS [ZakazkaVytvoril], 
+      [tblZakazky].[ZakazkaVytvorilKedy] AS [ZakazkaVytvorilKedy], 
+      [tblZakazky].[ZakazkaStav] AS [ZakazkaStav], 
+      [tblZakazky].[Zakaznik] AS [Zakaznik], 
+      [tblZakazky].[ZakazkaPoznamky] AS [ZakazkaPoznamky], 
+      [tblZakazky].[Vykladka] AS [Vykladka], 
+      [tblZakazky].[DatumUkoncenia] AS [DatumUkoncenia]
+      FROM [dbo].[tblZakazky] AS [tblZakazky]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tblZakazkyStav" EntityType="novaDBcsharpModel.Store.tblZakazkyStav" store:Type="Tables" store:Schema="dbo" store:Name="tblZakazkyStav">
+      <DefiningQuery>SELECT 
+      [tblZakazkyStav].[IdStav] AS [IdStav], 
+      [tblZakazkyStav].[StavZakazky] AS [StavZakazky]
+      FROM [dbo].[tblZakazkyStav] AS [tblZakazkyStav]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tblObjednavkaDokumenty">
+    <Key>
+      <PropertyRef Name="IdObjednavka" />
+    </Key>
+    <Property Name="IdDokumenty" Type="nchar" MaxLength="10" />
+    <Property Name="IdObjednavka" Type="int" Nullable="false" />
+    <Property Name="Dokument" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tblObjednavkaMaterial">
+    <Key>
+      <PropertyRef Name="IdObjednakva" />
+    </Key>
+    <Property Name="IdMaterial" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IdObjednakva" Type="int" Nullable="false" />
+    <Property Name="SylexPN" Type="nchar" MaxLength="10" />
+    <Property Name="MnozstvoMaterialu" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'novaDBcsharp.dbo.tblObjednavky' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tblObjednavky">
+    <Key>
+      <PropertyRef Name="IdObjednavka" />
+    </Key>
+    <Property Name="IdObjednavka" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SylexObjednavka" Type="nchar" MaxLength="10" />
+    <Property Name="Zakazka" Type="int" />
+    <Property Name="ZakaznickaObjednavka" Type="nchar" MaxLength="10" />
+    <Property Name="StavObjednavka" Type="nchar" MaxLength="10" />
+    <Property Name="ObjVytvoril" Type="nchar" MaxLength="10" />
+    <Property Name="ObjVytvorilDatum" Type="nchar" MaxLength="10" />
+    <Property Name="wlNominal_1" Type="nchar" MaxLength="10" />
+    <Property Name="wlNominal_2" Type="nchar" MaxLength="10" />
+    <Property Name="Snimac" Type="nchar" MaxLength="10" />
+    <Property Name="PnVlakna" Type="nchar" MaxLength="10" />
+    <Property Name="PnVyrobku" Type="nchar" MaxLength="10" />
+    <Property Name="PopisVlakna" Type="nchar" MaxLength="10" />
+    <Property Name="LotVlakna" Type="nchar" MaxLength="10" />
+    <Property Name="PoradoveCisloVlakna" Type="nchar" MaxLength="10" />
+    <Property Name="Rework" Type="nchar" MaxLength="10" />
+    <Property Name="PocetFBG" Type="nchar" MaxLength="10" />
+    <Property Name="ProcessReportVytvoril" Type="nchar" MaxLength="10" />
+    <Property Name="ProcessReportVytvorilKedy" Type="nchar" MaxLength="10" />
+    <Property Name="ProcessReportCesta" Type="nchar" MaxLength="10" />
+    <Property Name="KalibracnyListVytvoril" Type="nchar" MaxLength="10" />
+    <Property Name="KalibracnyListVytvorilKedy" Type="nchar" MaxLength="10" />
+    <Property Name="KalibracnyListCesta" Type="nchar" MaxLength="10" />
+    <Property Name="UkonceneKedy" Type="nchar" MaxLength="10" />
+    <Property Name="UkonceneKto" Type="nchar" MaxLength="10" />
+    <Property Name="ExpedovaneKedy" Type="nchar" MaxLength="10" />
+    <Property Name="ExpedovaneKto" Type="nchar" MaxLength="10" />
+    <Property Name="Oznacenie" Type="nchar" MaxLength="10" />
+    <Property Name="ChybaKedy" Type="nchar" MaxLength="10" />
+    <Property Name="ChybaKto" Type="nchar" MaxLength="10" />
+    <Property Name="KalibraciaResult" Type="nchar" MaxLength="10" />
+    <Property Name="OdchylkaInterna" Type="nchar" MaxLength="10" />
+    <Property Name="OdchylkaZakaznik" Type="nchar" MaxLength="10" />
+    <Property Name="KontrolaSnimacaUsekomKvality" Type="nchar" MaxLength="10" />
+    <Property Name="DatumVytvoreniasnimaca" Type="nchar" MaxLength="10" />
+    <Property Name="ontrolaSnimacaUsekomKvalityKto" Type="nchar" MaxLength="10" />
+    <Property Name="ontrolaSnimacaUsekomKvalityKedy" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tblObjednavkyStav">
+    <Key>
+      <PropertyRef Name="IdObjednavkyStav" />
+    </Key>
+    <Property Name="IdObjednavkyStav" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StavObjednavky" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'novaDBcsharp.dbo.tblSnimaceZoznam' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tblSnimaceZoznam">
+    <Key>
+      <PropertyRef Name="IdSnimaceZoznam" />
+    </Key>
+    <Property Name="IdSnimaceZoznam" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TypSnimaca" Type="varchar" MaxLength="50" />
+    <Property Name="Skupina" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'novaDBcsharp.dbo.tblUzivatelia' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tblUzivatelia">
+    <Key>
+      <PropertyRef Name="IdUzivatela" />
+    </Key>
+    <Property Name="IdUzivatela" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Skupina" Type="nchar" MaxLength="10" />
+    <Property Name="Meno" Type="nchar" MaxLength="10" />
+    <Property Name="Heslo" Type="nchar" MaxLength="10" />
+    <Property Name="Email" Type="nchar" MaxLength="10" />
+    <Property Name="Opravnenie" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'novaDBcsharp.dbo.tblZakazky' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tblZakazky">
+    <Key>
+      <PropertyRef Name="IdZakazka" />
+    </Key>
+    <Property Name="IdZakazka" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CisloZakazky" Type="int" />
+    <Property Name="ZakazkaVytvoril" Type="nchar" MaxLength="10" />
+    <Property Name="ZakazkaVytvorilKedy" Type="nchar" MaxLength="10" />
+    <Property Name="ZakazkaStav" Type="nchar" MaxLength="20" />
+    <Property Name="Zakaznik" Type="nchar" MaxLength="10" />
+    <Property Name="ZakazkaPoznamky" Type="nchar" MaxLength="10" />
+    <Property Name="Vykladka" Type="nchar" MaxLength="10" />
+    <Property Name="DatumUkoncenia" Type="date" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'novaDBcsharp.dbo.tblZakazkyStav' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tblZakazkyStav">
+    <Key>
+      <PropertyRef Name="IdStav" />
+    </Key>
+    <Property Name="IdStav" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StavZakazky" Type="nchar" MaxLength="20" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblASC01' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblASC01">
+        <Property Name="IdASC01" Type="nchar" MaxLength="10" />
+        <Property Name="IdObjednavky" Type="nchar" MaxLength="10" />
+        <Property Name="IdASC01poradove" Type="nchar" MaxLength="10" />
+        <Property Name="VzdialenostMedziPrvymAposlednymKotviacimBodom" Type="nchar" MaxLength="10" />
+        <Property Name="CisloFBG" Type="nchar" MaxLength="10" />
+        <Property Name="NominalnaWLasc" Type="nchar" MaxLength="10" />
+        <Property Name="PozadovanaVzdialenostMedziKotviacimiBodmi" Type="nchar" MaxLength="10" />
+        <Property Name="VstupnaKontrolaWL" Type="nchar" MaxLength="10" />
+        <Property Name="VstupnaKontrolaRL" Type="nchar" MaxLength="10" />
+        <Property Name="VstupnaKontrolaPV" Type="nchar" MaxLength="10" />
+        <Property Name="VstupnaKontrolaNominalVzdialenostiVlakna" Type="nchar" MaxLength="10" />
+        <Property Name="VstupnaKontrolaVzdialenostiVlakna" Type="nchar" MaxLength="10" />
+        <Property Name="VstupnaKontrolaKto" Type="nchar" MaxLength="10" />
+        <Property Name="VstupnaKontrolaKedy" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaWL1" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaWL2" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaRL1" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaRL2" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaPV1" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaPV2" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaVzdialenostKotviacichBodov" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaPrvyAposlednyKotviaciBod" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrola1spectrum" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrola1wl" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrola1snapshot" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrola2spectrum" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrola2snapshot" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrola2wl" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaKto" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaKedy" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaGrafSenzitivity" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaTeplota" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaPrestrainMin" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaPrestrainMax" Type="nchar" MaxLength="10" />
+        <Property Name="MedzioperacnaKontrolaPrestrainNastaveny" Type="nchar" MaxLength="10" />
+        <Property Name="Oznacenie" Type="nchar" MaxLength="10" />
+        <Property Name="PocetFBG" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblChangelog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblChangelog">
+        <Property Name="IdChangelog" Type="nchar" MaxLength="10" />
+        <Property Name="Verzia" Type="nchar" MaxLength="10" />
+        <Property Name="PopisZmien" Type="nchar" MaxLength="10" />
+        <Property Name="Zemil" Type="nchar" MaxLength="10" />
+        <Property Name="ZmenilKedy" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblOdchylkaInterna' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblOdchylkaInterna">
+        <Property Name="IdOdchylky" Type="nchar" MaxLength="10" />
+        <Property Name="IdObjednavka" Type="nchar" MaxLength="10" />
+        <Property Name="OdchylkaKto" Type="nchar" MaxLength="10" />
+        <Property Name="OdchylkaKedy" Type="nchar" MaxLength="10" />
+        <Property Name="NazovBunky" Type="nchar" MaxLength="10" />
+        <Property Name="HodnotaBunky" Type="nchar" MaxLength="10" />
+        <Property Name="Poznamky" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblParametre' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblParametre">
+        <Property Name="IdParameter" Type="nchar" MaxLength="10" />
+        <Property Name="IdObjednavka" Type="nchar" MaxLength="10" />
+        <Property Name="prevedenie_snimaca_A" Type="nchar" MaxLength="10" />
+        <Property Name="prevedenie_snimaca_B" Type="nchar" MaxLength="10" />
+        <Property Name="dlzka_kablov_A" Type="nchar" MaxLength="10" />
+        <Property Name="dlzka_kablov_B" Type="nchar" MaxLength="10" />
+        <Property Name="kablove_prevedenie_A" Type="nchar" MaxLength="10" />
+        <Property Name="kablove_prevedenie_B" Type="nchar" MaxLength="10" />
+        <Property Name="fix_body_plus" Type="nchar" MaxLength="10" />
+        <Property Name="fix_body_minus" Type="nchar" MaxLength="10" />
+        <Property Name="PDMPaPKT_tol_plus" Type="nchar" MaxLength="10" />
+        <Property Name="PDMPaPKT_tol_minus" Type="nchar" MaxLength="10" />
+        <Property Name="PDMPaPKT_dlzka" Type="nchar" MaxLength="10" />
+        <Property Name="TDKA_plus" Type="nchar" MaxLength="10" />
+        <Property Name="TDKA_minus" Type="nchar" MaxLength="10" />
+        <Property Name="TDKB_plus" Type="nchar" MaxLength="10" />
+        <Property Name="TDKB_minus" Type="nchar" MaxLength="10" />
+        <Property Name="PS1" Type="nchar" MaxLength="10" />
+        <Property Name="PS2" Type="nchar" MaxLength="10" />
+        <Property Name="PST1" Type="nchar" MaxLength="10" />
+        <Property Name="PST2" Type="nchar" MaxLength="10" />
+        <Property Name="FIX" Type="nchar" MaxLength="10" />
+        <Property Name="100_meranie" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblReviziaFormularov' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblReviziaFormularov">
+        <Property Name="IdRevizia" Type="nchar" MaxLength="10" />
+        <Property Name="IdObjednavka" Type="nchar" MaxLength="10" />
+        <Property Name="CisloRevizie" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblReviziaFormularovPreddefinovana' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblReviziaFormularovPreddefinovana">
+        <Property Name="IdReviziaPreddefinovana" Type="nchar" MaxLength="10" />
+        <Property Name="CisloRevizie" Type="nchar" MaxLength="10" />
+        <Property Name="OznacenieFormulara" Type="nchar" MaxLength="10" />
+        <Property Name="NazovFormulara" Type="nchar" MaxLength="10" />
+        <Property Name="ReviziuZmenilKto" Type="nchar" MaxLength="10" />
+        <Property Name="ReviziuZmenilKedy" Type="nchar" MaxLength="10" />
+        <Property Name="PoznamkyZmeny" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblTolerancie' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblTolerancie">
+        <Property Name="IdTolerancie" Type="nchar" MaxLength="10" />
+        <Property Name="Skupina" Type="nchar" MaxLength="10" />
+        <Property Name="PopisTolerancie" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblTolerancieSkupina' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblTolerancieSkupina">
+        <Property Name="IdTolerancieSkupina" Type="nchar" MaxLength="10" />
+        <Property Name="Skupina" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblTolerancieZmeny' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblTolerancieZmeny">
+        <Property Name="IdToleranciaZmeny" Type="nchar" MaxLength="10" />
+        <Property Name="IdTolerancia" Type="nchar" MaxLength="10" />
+        <Property Name="ToleranciaZmenaKto" Type="nchar" MaxLength="10" />
+        <Property Name="ToleranciaZmenaKedy" Type="nchar" MaxLength="10" />
+        <Property Name="ZmenilZhodnoty" Type="nchar" MaxLength="10" />
+        <Property Name="ZmenilNaHodnotu" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblUzivateliaSkupina' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblUzivateliaSkupina">
+        <Property Name="IdSkupina" Type="nchar" MaxLength="10" />
+        <Property Name="NazovSkupiny" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblVstupnaKontrola' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblVstupnaKontrola">
+        <Property Name="IdVstupnaKontrola" Type="nchar" MaxLength="10" />
+        <Property Name="IdObjednavka" Type="nchar" MaxLength="10" />
+        <Property Name="TeplotaPracoviska" Type="nchar" MaxLength="10" />
+        <Property Name="DatumVytvorenia" Type="nchar" MaxLength="10" />
+        <Property Name="Vytvoril" Type="nchar" MaxLength="10" />
+        <Property Name="VzdialenostMedziFbg" Type="nchar" MaxLength="10" />
+        <Property Name="VlnovaDzlka1FBG" Type="nchar" MaxLength="10" />
+        <Property Name="PowerValue1FBG" Type="nchar" MaxLength="10" />
+        <Property Name="VlnovaDlzka2FBG" Type="nchar" MaxLength="10" />
+        <Property Name="PowerValue2FBG" Type="nchar" MaxLength="10" />
+        <Property Name="RL1FBG" Type="nchar" MaxLength="10" />
+        <Property Name="RL2FBG" Type="nchar" MaxLength="10" />
+        <Property Name="Spectrum" Type="nchar" MaxLength="10" />
+        <Property Name="DataWL" Type="nchar" MaxLength="10" />
+        <Property Name="Snapshot" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblZakazkyZmeny' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblZakazkyZmeny">
+        <Property Name="IdZmenyZakazka" Type="nchar" MaxLength="10" />
+        <Property Name="IdZakazka" Type="nchar" MaxLength="10" />
+        <Property Name="ZmenaZakazkaKto" Type="nchar" MaxLength="10" />
+        <Property Name="ZmenaZakazkaKedy" Type="nchar" MaxLength="10" />
+        <Property Name="Bunka" Type="nchar" MaxLength="10" />
+        <Property Name="ZmenilZhodnoty" Type="nchar" MaxLength="10" />
+        <Property Name="ZmenilNaHodnotu" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblZaznamChyb' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblZaznamChyb">
+        <Property Name="IdZaznamChyb" Type="nchar" MaxLength="10" />
+        <Property Name="IdObjednavka" Type="nchar" MaxLength="10" />
+        <Property Name="Poznamky" Type="nchar" MaxLength="10" />
+        <Property Name="PoznamkyKto" Type="nchar" MaxLength="10" />
+        <Property Name="PoznamkyKedy" Type="nchar" MaxLength="10" />
+        <Property Name="ChybuSposobil" Type="nchar" MaxLength="10" />
+        <Property Name="NapravneOpatrenie" Type="nchar" MaxLength="10" />
+        <Property Name="NapravneOpatrenieKto" Type="nchar" MaxLength="10" />
+        <Property Name="NapravneOpatrenieKedy" Type="nchar" MaxLength="10" />
+        <Property Name="TypChyby" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblZaznamChybZnicenyMaterial' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblZaznamChybZnicenyMaterial">
+        <Property Name="IdZaznamChybZnicenyMaterial" Type="nchar" MaxLength="10" />
+        <Property Name="IdObjednavka" Type="nchar" MaxLength="10" />
+        <Property Name="SylexPN" Type="nchar" MaxLength="10" />
+        <Property Name="MnozstvoMaterialu" Type="nchar" MaxLength="10" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'novaDBcsharp.dbo.tblZaznamChybZoznamChyb' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tblZaznamChybZoznamChyb">
+        <Property Name="IdZoznamChyb" Type="nchar" MaxLength="10" />
+        <Property Name="Skupina" Type="nchar" MaxLength="10" />
+        <Property Name="PopisChyby" Type="nchar" MaxLength="10" />
+      </EntityType>-->
+</Schema>

@@ -1,0 +1,60 @@
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DBSV2.exe.config
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DBSV2.exe.manifest
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DBSV2.application
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DBSV2.exe
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DBSV2.pdb
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar.Keyboard.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar.Layout.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar.Schedule.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar2.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.Instrumentation.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\GemBox.Spreadsheet.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\Microsoft.WindowsAPICodePack.Sensors.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar.Keyboard.xml
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar.Schedule.xml
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.DotNetBar2.xml
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\DevComponents.Instrumentation.xml
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\bin\Debug\GemBox.Spreadsheet.xml
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\Production Database.csprojResolveAssemblyReference.cache
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.AboutForm.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.SmartPatch.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Univerzal.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Konektorovanie.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Konektorovanie_original.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.EditZakazky.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.NovyUzivatel.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Kalibracie.Strain.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Kalibracie.STRAIN_new.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Kalibracie.TEMP.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Kalibracie.TEMP_new.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Nastavenia.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Rmax_values.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.FBGS_Report.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Prihlásenie.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Zakazky.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.NovaZakazka.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.Properties.Resources.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.UserControls.BarRevizieFormulare.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.UserControls.DownStatusBar.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.OvladaciPanelFormulare.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.OvladaciPanelObjednavky.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.UserControls.OvladaciPanelObjednavkyNEW.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.UserControls.OvladaciPanelObjednavkySF.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.VystupnaKontrolaScr.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.UserControls.ZaznamChyb.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.UserControls.ZaznamChybMaterial.resources
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\Production Database.csproj.GenerateResource.Cache
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\DBSV2.TrustInfo.xml
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\DBSV2.exe.manifest
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\DBSV2.application
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\DBSV2.exe
+D:\new_DBS_C_šark\FBGS only – kópia actual zal 3.3.2017  FINAL\WindowsFormsApplication14\obj\Debug\DBSV2.pdb
+C:\Users\mukky\Source\Repos\Production-Database\WindowsFormsApplication14\bin\Debug\DBSV2.exe.config
+C:\Users\mukky\Source\Repos\Production-Database\WindowsFormsApplication14\obj\Debug\DBSV2.exe
+C:\Users\mukky\Source\Repos\Production-Database\WindowsFormsApplication14\obj\Debug\DBSV2.pdb

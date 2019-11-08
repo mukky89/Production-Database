@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ISYSDataSet" targetNamespace="http://tempuri.org/ISYSDataSet.xsd" xmlns:mstns="http://tempuri.org/ISYSDataSet.xsd" xmlns="http://tempuri.org/ISYSDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ISYSConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ISYSConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApplication14.Properties.Settings.GlobalReference.Default.ISYSConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ZákazkyTableAdapter" GeneratorDataComponentClassName="ZákazkyTableAdapter" Name="Zákazky" UserDataComponentName="ZákazkyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ISYSConnectionString1 (Settings)" DbObjectName="ISYS.dbo.Zákazky" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[Zákazky] WHERE (([ID] = @Original_ID) AND ((@IsNull_Status = 1 AND [Status] IS NULL) OR ([Status] = @Original_Status)) AND ((@IsNull_Zákazník = 1 AND [Zákazník] IS NULL) OR ([Zákazník] = @Original_Zákazník)) AND ((@IsNull_DopytZadaný = 1 AND [DopytZadaný] IS NULL) OR ([DopytZadaný] = @Original_DopytZadaný)) AND ((@IsNull_DopytReakcia = 1 AND [DopytReakcia] IS NULL) OR ([DopytReakcia] = @Original_DopytReakcia)) AND ((@IsNull_DopytPoznámky = 1 AND [DopytPoznámky] IS NULL) OR ([DopytPoznámky] = @Original_DopytPoznámky)) AND ((@IsNull_Objednávka = 1 AND [Objednávka] IS NULL) OR ([Objednávka] = @Original_Objednávka)) AND ((@IsNull_ObjednávkaZadaná = 1 AND [ObjednávkaZadaná] IS NULL) OR ([ObjednávkaZadaná] = @Original_ObjednávkaZadaná)) AND ((@IsNull_TermínDodania = 1 AND [TermínDodania] IS NULL) OR ([TermínDodania] = @Original_TermínDodania)) AND ((@IsNull_ObjednávkaTermínDodania = 1 AND [ObjednávkaTermínDodania] IS NULL) OR ([ObjednávkaTermínDodania] = @Original_ObjednávkaTermínDodania)) AND ((@IsNull_Obchodné_meno = 1 AND [Obchodné meno] IS NULL) OR ([Obchodné meno] = @Original_Obchodné_meno)) AND ((@IsNull_Kontaktná_osoba = 1 AND [Kontaktná osoba] IS NULL) OR ([Kontaktná osoba] = @Original_Kontaktná_osoba)) AND ((@IsNull_Telefón = 1 AND [Telefón] IS NULL) OR ([Telefón] = @Original_Telefón)) AND ((@IsNull_Fax = 1 AND [Fax] IS NULL) OR ([Fax] = @Original_Fax)) AND ((@IsNull_email = 1 AND [email] IS NULL) OR ([email] = @Original_email)) AND ((@IsNull_Sídlo = 1 AND [Sídlo] IS NULL) OR ([Sídlo] = @Original_Sídlo)) AND ((@IsNull_Adresa = 1 AND [Adresa] IS NULL) OR ([Adresa] = @Original_Adresa)) AND ((@IsNull_PSČ = 1 AND [PSČ] IS NULL) OR ([PSČ] = @Original_PSČ)) AND ((@IsNull_Štát = 1 AND [Štát] IS NULL) OR ([Štát] = @Original_Štát)) AND ((@IsNull_IČO = 1 AND [IČO] IS NULL) OR ([IČO] = @Original_IČO)) AND ((@IsNull_DRČ = 1 AND [DRČ] IS NULL) OR ([DRČ] = @Original_DRČ)) AND ((@IsNull_Príjemca = 1 AND [Príjemca] IS NULL) OR ([Príjemca] = @Original_Príjemca)) AND ((@IsNull_PríjemcaSídlo = 1 AND [PríjemcaSídlo] IS NULL) OR ([PríjemcaSídlo] = @Original_PríjemcaSídlo)) AND ((@IsNull_PríjemcaAdresa = 1 AND [PríjemcaAdresa] IS NULL) OR ([PríjemcaAdresa] = @Original_PríjemcaAdresa)) AND ((@IsNull_PríjemcaPSČ = 1 AND [PríjemcaPSČ] IS NULL) OR ([PríjemcaPSČ] = @Original_PríjemcaPSČ)) AND ((@IsNull_PríjemcaŠtát = 1 AND [PríjemcaŠtát] IS NULL) OR ([PríjemcaŠtát] = @Original_PríjemcaŠtát)) AND ((@IsNull_Vykládka = 1 AND [Vykládka] IS NULL) OR ([Vykládka] = @Original_Vykládka)) AND ((@IsNull_Mena = 1 AND [Mena] IS NULL) OR ([Mena] = @Original_Mena)) AND ((@IsNull_Vytvorená = 1 AND [Vytvorená] IS NULL) OR ([Vytvorená] = @Original_Vytvorená)) AND ((@IsNull_Špecifikácia = 1 AND [Špecifikácia] IS NULL) OR ([Špecifikácia] = @Original_Špecifikácia)) AND ((@IsNull_ObjednávkaZákZák = 1 AND [ObjednávkaZákZák] IS NULL) OR ([ObjednávkaZákZák] = @Original_ObjednávkaZákZák)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Status" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Status" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Zákazník" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zákazník" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Zákazník" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zákazník" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DopytZadaný" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DopytZadaný" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DopytZadaný" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DopytZadaný" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DopytReakcia" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DopytReakcia" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DopytReakcia" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DopytReakcia" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DopytPoznámky" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DopytPoznámky" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_DopytPoznámky" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DopytPoznámky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Objednávka" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Objednávka" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Objednávka" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Objednávka" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ObjednávkaZadaná" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ObjednávkaZadaná" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_ObjednávkaZadaná" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ObjednávkaZadaná" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TermínDodania" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TermínDodania" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_TermínDodania" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="TermínDodania" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ObjednávkaTermínDodania" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ObjednávkaTermínDodania" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_ObjednávkaTermínDodania" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ObjednávkaTermínDodania" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Obchodné_meno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Obchodné meno" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Obchodné_meno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Obchodné meno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Kontaktná_osoba" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Kontaktná osoba" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Kontaktná_osoba" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Kontaktná osoba" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Telefón" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Telefón" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Telefón" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Telefón" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Fax" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Fax" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Fax" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Fax" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_email" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="email" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="email" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Sídlo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Sídlo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Sídlo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Sídlo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Adresa" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Adresa" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Adresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Adresa" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PSČ" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PSČ" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PSČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PSČ" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Štát" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Štát" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Štát" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Štát" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_IČO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IČO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_IČO" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="IČO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DRČ" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DRČ" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_DRČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="DRČ" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Príjemca" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Príjemca" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Príjemca" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Príjemca" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PríjemcaSídlo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PríjemcaSídlo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PríjemcaSídlo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaSídlo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PríjemcaAdresa" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PríjemcaAdresa" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PríjemcaAdresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaAdresa" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PríjemcaPSČ" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PríjemcaPSČ" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PríjemcaPSČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaPSČ" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PríjemcaŠtát" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PríjemcaŠtát" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PríjemcaŠtát" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaŠtát" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Vykládka" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Vykládka" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Vykládka" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Vykládka" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Mena" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Mena" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Mena" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Mena" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Vytvorená" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Vytvorená" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Vytvorená" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Vytvorená" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Špecifikácia" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Špecifikácia" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Špecifikácia" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Špecifikácia" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ObjednávkaZákZák" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ObjednávkaZákZák" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ObjednávkaZákZák" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ObjednávkaZákZák" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[Zákazky] ([Status], [Zákazník], [DopytZadaný], [DopytReakcia], [DopytPoznámky], [Objednávka], [ObjednávkaZadaná], [TermínDodania], [ObjednávkaTermínDodania], [Obchodné meno], [Kontaktná osoba], [Telefón], [Fax], [email], [Sídlo], [Adresa], [PSČ], [Štát], [IČO], [DRČ], [Príjemca], [PríjemcaSídlo], [PríjemcaAdresa], [PríjemcaPSČ], [PríjemcaŠtát], [Vykládka], [Mena], [Vytvorená], [Zmenená], [Špecifikácia], [ObjednávkaZákZák]) VALUES (@Status, @Zákazník, @DopytZadaný, @DopytReakcia, @DopytPoznámky, @Objednávka, @ObjednávkaZadaná, @TermínDodania, @ObjednávkaTermínDodania, @Obchodné_meno, @Kontaktná_osoba, @Telefón, @Fax, @email, @Sídlo, @Adresa, @PSČ, @Štát, @IČO, @DRČ, @Príjemca, @PríjemcaSídlo, @PríjemcaAdresa, @PríjemcaPSČ, @PríjemcaŠtát, @Vykládka, @Mena, @Vytvorená, @Zmenená, @Špecifikácia, @ObjednávkaZákZák);
+SELECT ID, Status, Zákazník, DopytZadaný, DopytReakcia, DopytPoznámky, Objednávka, ObjednávkaZadaná, TermínDodania, ObjednávkaTermínDodania, [Obchodné meno], [Kontaktná osoba], Telefón, Fax, email, Sídlo, Adresa, PSČ, Štát, IČO, DRČ, Príjemca, PríjemcaSídlo, PríjemcaAdresa, PríjemcaPSČ, PríjemcaŠtát, Vykládka, Mena, Vytvorená, Zmenená, Špecifikácia, ObjednávkaZákZák FROM Zákazky WHERE (ID = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Status" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Zákazník" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zákazník" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DopytZadaný" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DopytZadaný" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DopytReakcia" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DopytReakcia" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@DopytPoznámky" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DopytPoznámky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Objednávka" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Objednávka" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@ObjednávkaZadaná" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ObjednávkaZadaná" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@TermínDodania" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="TermínDodania" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@ObjednávkaTermínDodania" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ObjednávkaTermínDodania" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Obchodné_meno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Obchodné meno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Kontaktná_osoba" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Kontaktná osoba" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Telefón" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Telefón" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Fax" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Fax" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="email" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Sídlo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Sídlo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Adresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Adresa" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PSČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PSČ" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Štát" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Štát" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@IČO" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="IČO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@DRČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="DRČ" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Príjemca" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Príjemca" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PríjemcaSídlo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaSídlo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PríjemcaAdresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaAdresa" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PríjemcaPSČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaPSČ" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PríjemcaŠtát" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaŠtát" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Vykládka" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Vykládka" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Mena" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Mena" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Vytvorená" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Vytvorená" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Zmenená" Precision="0" ProviderType="NText" Scale="0" Size="0" SourceColumn="Zmenená" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Špecifikácia" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Špecifikácia" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ObjednávkaZákZák" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ObjednávkaZákZák" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, Status, Zákazník, DopytZadaný, DopytReakcia, DopytPoznámky, Objednávka, ObjednávkaZadaná, TermínDodania, ObjednávkaTermínDodania, [Obchodné meno], [Kontaktná osoba], Telefón, Fax, email, Sídlo, Adresa, PSČ, Štát, IČO, DRČ, Príjemca, PríjemcaSídlo, PríjemcaAdresa, PríjemcaPSČ, PríjemcaŠtát, Vykládka, Mena, Vytvorená, Zmenená, Špecifikácia, ObjednávkaZákZák FROM dbo.Zákazky</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[Zákazky] SET [Status] = @Status, [Zákazník] = @Zákazník, [DopytZadaný] = @DopytZadaný, [DopytReakcia] = @DopytReakcia, [DopytPoznámky] = @DopytPoznámky, [Objednávka] = @Objednávka, [ObjednávkaZadaná] = @ObjednávkaZadaná, [TermínDodania] = @TermínDodania, [ObjednávkaTermínDodania] = @ObjednávkaTermínDodania, [Obchodné meno] = @Obchodné_meno, [Kontaktná osoba] = @Kontaktná_osoba, [Telefón] = @Telefón, [Fax] = @Fax, [email] = @email, [Sídlo] = @Sídlo, [Adresa] = @Adresa, [PSČ] = @PSČ, [Štát] = @Štát, [IČO] = @IČO, [DRČ] = @DRČ, [Príjemca] = @Príjemca, [PríjemcaSídlo] = @PríjemcaSídlo, [PríjemcaAdresa] = @PríjemcaAdresa, [PríjemcaPSČ] = @PríjemcaPSČ, [PríjemcaŠtát] = @PríjemcaŠtát, [Vykládka] = @Vykládka, [Mena] = @Mena, [Vytvorená] = @Vytvorená, [Zmenená] = @Zmenená, [Špecifikácia] = @Špecifikácia, [ObjednávkaZákZák] = @ObjednávkaZákZák WHERE (([ID] = @Original_ID) AND ((@IsNull_Status = 1 AND [Status] IS NULL) OR ([Status] = @Original_Status)) AND ((@IsNull_Zákazník = 1 AND [Zákazník] IS NULL) OR ([Zákazník] = @Original_Zákazník)) AND ((@IsNull_DopytZadaný = 1 AND [DopytZadaný] IS NULL) OR ([DopytZadaný] = @Original_DopytZadaný)) AND ((@IsNull_DopytReakcia = 1 AND [DopytReakcia] IS NULL) OR ([DopytReakcia] = @Original_DopytReakcia)) AND ((@IsNull_DopytPoznámky = 1 AND [DopytPoznámky] IS NULL) OR ([DopytPoznámky] = @Original_DopytPoznámky)) AND ((@IsNull_Objednávka = 1 AND [Objednávka] IS NULL) OR ([Objednávka] = @Original_Objednávka)) AND ((@IsNull_ObjednávkaZadaná = 1 AND [ObjednávkaZadaná] IS NULL) OR ([ObjednávkaZadaná] = @Original_ObjednávkaZadaná)) AND ((@IsNull_TermínDodania = 1 AND [TermínDodania] IS NULL) OR ([TermínDodania] = @Original_TermínDodania)) AND ((@IsNull_ObjednávkaTermínDodania = 1 AND [ObjednávkaTermínDodania] IS NULL) OR ([ObjednávkaTermínDodania] = @Original_ObjednávkaTermínDodania)) AND ((@IsNull_Obchodné_meno = 1 AND [Obchodné meno] IS NULL) OR ([Obchodné meno] = @Original_Obchodné_meno)) AND ((@IsNull_Kontaktná_osoba = 1 AND [Kontaktná osoba] IS NULL) OR ([Kontaktná osoba] = @Original_Kontaktná_osoba)) AND ((@IsNull_Telefón = 1 AND [Telefón] IS NULL) OR ([Telefón] = @Original_Telefón)) AND ((@IsNull_Fax = 1 AND [Fax] IS NULL) OR ([Fax] = @Original_Fax)) AND ((@IsNull_email = 1 AND [email] IS NULL) OR ([email] = @Original_email)) AND ((@IsNull_Sídlo = 1 AND [Sídlo] IS NULL) OR ([Sídlo] = @Original_Sídlo)) AND ((@IsNull_Adresa = 1 AND [Adresa] IS NULL) OR ([Adresa] = @Original_Adresa)) AND ((@IsNull_PSČ = 1 AND [PSČ] IS NULL) OR ([PSČ] = @Original_PSČ)) AND ((@IsNull_Štát = 1 AND [Štát] IS NULL) OR ([Štát] = @Original_Štát)) AND ((@IsNull_IČO = 1 AND [IČO] IS NULL) OR ([IČO] = @Original_IČO)) AND ((@IsNull_DRČ = 1 AND [DRČ] IS NULL) OR ([DRČ] = @Original_DRČ)) AND ((@IsNull_Príjemca = 1 AND [Príjemca] IS NULL) OR ([Príjemca] = @Original_Príjemca)) AND ((@IsNull_PríjemcaSídlo = 1 AND [PríjemcaSídlo] IS NULL) OR ([PríjemcaSídlo] = @Original_PríjemcaSídlo)) AND ((@IsNull_PríjemcaAdresa = 1 AND [PríjemcaAdresa] IS NULL) OR ([PríjemcaAdresa] = @Original_PríjemcaAdresa)) AND ((@IsNull_PríjemcaPSČ = 1 AND [PríjemcaPSČ] IS NULL) OR ([PríjemcaPSČ] = @Original_PríjemcaPSČ)) AND ((@IsNull_PríjemcaŠtát = 1 AND [PríjemcaŠtát] IS NULL) OR ([PríjemcaŠtát] = @Original_PríjemcaŠtát)) AND ((@IsNull_Vykládka = 1 AND [Vykládka] IS NULL) OR ([Vykládka] = @Original_Vykládka)) AND ((@IsNull_Mena = 1 AND [Mena] IS NULL) OR ([Mena] = @Original_Mena)) AND ((@IsNull_Vytvorená = 1 AND [Vytvorená] IS NULL) OR ([Vytvorená] = @Original_Vytvorená)) AND ((@IsNull_Špecifikácia = 1 AND [Špecifikácia] IS NULL) OR ([Špecifikácia] = @Original_Špecifikácia)) AND ((@IsNull_ObjednávkaZákZák = 1 AND [ObjednávkaZákZák] IS NULL) OR ([ObjednávkaZákZák] = @Original_ObjednávkaZákZák)));
+SELECT ID, Status, Zákazník, DopytZadaný, DopytReakcia, DopytPoznámky, Objednávka, ObjednávkaZadaná, TermínDodania, ObjednávkaTermínDodania, [Obchodné meno], [Kontaktná osoba], Telefón, Fax, email, Sídlo, Adresa, PSČ, Štát, IČO, DRČ, Príjemca, PríjemcaSídlo, PríjemcaAdresa, PríjemcaPSČ, PríjemcaŠtát, Vykládka, Mena, Vytvorená, Zmenená, Špecifikácia, ObjednávkaZákZák FROM Zákazky WHERE (ID = @ID)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Status" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Zákazník" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zákazník" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DopytZadaný" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DopytZadaný" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DopytReakcia" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DopytReakcia" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@DopytPoznámky" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DopytPoznámky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Objednávka" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Objednávka" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@ObjednávkaZadaná" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ObjednávkaZadaná" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@TermínDodania" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="TermínDodania" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@ObjednávkaTermínDodania" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ObjednávkaTermínDodania" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Obchodné_meno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Obchodné meno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Kontaktná_osoba" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Kontaktná osoba" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Telefón" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Telefón" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Fax" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Fax" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="email" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Sídlo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Sídlo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Adresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Adresa" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PSČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PSČ" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Štát" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Štát" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@IČO" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="IČO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@DRČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="DRČ" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Príjemca" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Príjemca" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PríjemcaSídlo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaSídlo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PríjemcaAdresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaAdresa" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PríjemcaPSČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaPSČ" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PríjemcaŠtát" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaŠtát" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Vykládka" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Vykládka" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Mena" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Mena" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Vytvorená" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Vytvorená" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Zmenená" Precision="0" ProviderType="NText" Scale="0" Size="0" SourceColumn="Zmenená" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Špecifikácia" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Špecifikácia" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ObjednávkaZákZák" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ObjednávkaZákZák" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Status" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Status" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Status" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Zákazník" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zákazník" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Zákazník" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zákazník" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DopytZadaný" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DopytZadaný" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DopytZadaný" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DopytZadaný" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DopytReakcia" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DopytReakcia" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_DopytReakcia" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DopytReakcia" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DopytPoznámky" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DopytPoznámky" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_DopytPoznámky" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DopytPoznámky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Objednávka" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Objednávka" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Objednávka" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Objednávka" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ObjednávkaZadaná" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ObjednávkaZadaná" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_ObjednávkaZadaná" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ObjednávkaZadaná" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TermínDodania" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TermínDodania" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_TermínDodania" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="TermínDodania" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ObjednávkaTermínDodania" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ObjednávkaTermínDodania" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_ObjednávkaTermínDodania" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="ObjednávkaTermínDodania" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Obchodné_meno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Obchodné meno" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Obchodné_meno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Obchodné meno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Kontaktná_osoba" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Kontaktná osoba" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Kontaktná_osoba" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Kontaktná osoba" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Telefón" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Telefón" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Telefón" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Telefón" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Fax" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Fax" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Fax" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Fax" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_email" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="email" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="email" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Sídlo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Sídlo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Sídlo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Sídlo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Adresa" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Adresa" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Adresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Adresa" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PSČ" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PSČ" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PSČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PSČ" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Štát" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Štát" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Štát" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Štát" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_IČO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IČO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_IČO" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="IČO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_DRČ" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="DRČ" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_DRČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="DRČ" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Príjemca" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Príjemca" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Príjemca" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Príjemca" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PríjemcaSídlo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PríjemcaSídlo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PríjemcaSídlo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaSídlo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PríjemcaAdresa" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PríjemcaAdresa" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PríjemcaAdresa" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaAdresa" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PríjemcaPSČ" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PríjemcaPSČ" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PríjemcaPSČ" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaPSČ" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_PríjemcaŠtát" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="PríjemcaŠtát" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_PríjemcaŠtát" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PríjemcaŠtát" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Vykládka" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Vykládka" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_Vykládka" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Vykládka" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Mena" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Mena" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Mena" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Mena" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Vytvorená" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Vytvorená" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Vytvorená" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Vytvorená" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Špecifikácia" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Špecifikácia" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_Špecifikácia" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Špecifikácia" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ObjednávkaZákZák" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ObjednávkaZákZák" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_ObjednávkaZákZák" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ObjednávkaZákZák" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="ID" ColumnName="ID" DataSourceName="ISYS.dbo.Zákazky" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="Zákazník" DataSetColumn="Zákazník" />
+              <Mapping SourceColumn="DopytZadaný" DataSetColumn="DopytZadaný" />
+              <Mapping SourceColumn="DopytReakcia" DataSetColumn="DopytReakcia" />
+              <Mapping SourceColumn="DopytPoznámky" DataSetColumn="DopytPoznámky" />
+              <Mapping SourceColumn="Objednávka" DataSetColumn="Objednávka" />
+              <Mapping SourceColumn="ObjednávkaZadaná" DataSetColumn="ObjednávkaZadaná" />
+              <Mapping SourceColumn="TermínDodania" DataSetColumn="TermínDodania" />
+              <Mapping SourceColumn="ObjednávkaTermínDodania" DataSetColumn="ObjednávkaTermínDodania" />
+              <Mapping SourceColumn="Obchodné meno" DataSetColumn="Obchodné meno" />
+              <Mapping SourceColumn="Kontaktná osoba" DataSetColumn="Kontaktná osoba" />
+              <Mapping SourceColumn="Telefón" DataSetColumn="Telefón" />
+              <Mapping SourceColumn="Fax" DataSetColumn="Fax" />
+              <Mapping SourceColumn="email" DataSetColumn="email" />
+              <Mapping SourceColumn="Sídlo" DataSetColumn="Sídlo" />
+              <Mapping SourceColumn="Adresa" DataSetColumn="Adresa" />
+              <Mapping SourceColumn="PSČ" DataSetColumn="PSČ" />
+              <Mapping SourceColumn="Štát" DataSetColumn="Štát" />
+              <Mapping SourceColumn="IČO" DataSetColumn="IČO" />
+              <Mapping SourceColumn="DRČ" DataSetColumn="DRČ" />
+              <Mapping SourceColumn="Príjemca" DataSetColumn="Príjemca" />
+              <Mapping SourceColumn="PríjemcaSídlo" DataSetColumn="PríjemcaSídlo" />
+              <Mapping SourceColumn="PríjemcaAdresa" DataSetColumn="PríjemcaAdresa" />
+              <Mapping SourceColumn="PríjemcaPSČ" DataSetColumn="PríjemcaPSČ" />
+              <Mapping SourceColumn="PríjemcaŠtát" DataSetColumn="PríjemcaŠtát" />
+              <Mapping SourceColumn="Vykládka" DataSetColumn="Vykládka" />
+              <Mapping SourceColumn="Mena" DataSetColumn="Mena" />
+              <Mapping SourceColumn="Vytvorená" DataSetColumn="Vytvorená" />
+              <Mapping SourceColumn="Zmenená" DataSetColumn="Zmenená" />
+              <Mapping SourceColumn="Špecifikácia" DataSetColumn="Špecifikácia" />
+              <Mapping SourceColumn="ObjednávkaZákZák" DataSetColumn="ObjednávkaZákZák" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="ISYSConnectionString1 (Settings)" DbObjectName="ISYS.dbo.Zákazky" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="queryZakazky" MethodsParameterType="CLR" Modifier="Public" Name="queryZakazky" QueryType="Scalar" ScalarCallRetval="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="queryZakazky">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>SELECT        ID, Status, Objednávka, [Obchodné meno], Špecifikácia, ObjednávkaZákZák
+FROM            Zákazky
+WHERE        (Špecifikácia LIKE '%FOS%') AND (Status &lt; 12)</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ISYSDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ISYSDataSet" msprop:Generator_UserDSName="ISYSDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Zákazky" msprop:Generator_TableClassName="ZákazkyDataTable" msprop:Generator_TableVarName="tableZákazky" msprop:Generator_TablePropName="Zákazky" msprop:Generator_RowDeletingName="ZákazkyRowDeleting" msprop:Generator_RowChangingName="ZákazkyRowChanging" msprop:Generator_RowEvHandlerName="ZákazkyRowChangeEventHandler" msprop:Generator_RowDeletedName="ZákazkyRowDeleted" msprop:Generator_UserTableName="Zákazky" msprop:Generator_RowChangedName="ZákazkyRowChanged" msprop:Generator_RowEvArgName="ZákazkyRowChangeEvent" msprop:Generator_RowClassName="ZákazkyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:int" minOccurs="0" />
+              <xs:element name="Zákazník" msprop:Generator_ColumnVarNameInTable="columnZákazník" msprop:Generator_ColumnPropNameInRow="Zákazník" msprop:Generator_ColumnPropNameInTable="ZákazníkColumn" msprop:Generator_UserColumnName="Zákazník" type="xs:int" minOccurs="0" />
+              <xs:element name="DopytZadaný" msprop:Generator_ColumnVarNameInTable="columnDopytZadaný" msprop:Generator_ColumnPropNameInRow="DopytZadaný" msprop:Generator_ColumnPropNameInTable="DopytZadanýColumn" msprop:Generator_UserColumnName="DopytZadaný" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DopytReakcia" msprop:Generator_ColumnVarNameInTable="columnDopytReakcia" msprop:Generator_ColumnPropNameInRow="DopytReakcia" msprop:Generator_ColumnPropNameInTable="DopytReakciaColumn" msprop:Generator_UserColumnName="DopytReakcia" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DopytPoznámky" msprop:Generator_ColumnVarNameInTable="columnDopytPoznámky" msprop:Generator_ColumnPropNameInRow="DopytPoznámky" msprop:Generator_ColumnPropNameInTable="DopytPoznámkyColumn" msprop:Generator_UserColumnName="DopytPoznámky" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Objednávka" msprop:Generator_ColumnVarNameInTable="columnObjednávka" msprop:Generator_ColumnPropNameInRow="Objednávka" msprop:Generator_ColumnPropNameInTable="ObjednávkaColumn" msprop:Generator_UserColumnName="Objednávka" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ObjednávkaZadaná" msprop:Generator_ColumnVarNameInTable="columnObjednávkaZadaná" msprop:Generator_ColumnPropNameInRow="ObjednávkaZadaná" msprop:Generator_ColumnPropNameInTable="ObjednávkaZadanáColumn" msprop:Generator_UserColumnName="ObjednávkaZadaná" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TermínDodania" msprop:Generator_ColumnVarNameInTable="columnTermínDodania" msprop:Generator_ColumnPropNameInRow="TermínDodania" msprop:Generator_ColumnPropNameInTable="TermínDodaniaColumn" msprop:Generator_UserColumnName="TermínDodania" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ObjednávkaTermínDodania" msprop:Generator_ColumnVarNameInTable="columnObjednávkaTermínDodania" msprop:Generator_ColumnPropNameInRow="ObjednávkaTermínDodania" msprop:Generator_ColumnPropNameInTable="ObjednávkaTermínDodaniaColumn" msprop:Generator_UserColumnName="ObjednávkaTermínDodania" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Obchodné_x0020_meno" msprop:Generator_ColumnVarNameInTable="columnObchodné_meno" msprop:Generator_ColumnPropNameInRow="Obchodné_meno" msprop:Generator_ColumnPropNameInTable="Obchodné_menoColumn" msprop:Generator_UserColumnName="Obchodné meno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Kontaktná_x0020_osoba" msprop:Generator_ColumnVarNameInTable="columnKontaktná_osoba" msprop:Generator_ColumnPropNameInRow="Kontaktná_osoba" msprop:Generator_ColumnPropNameInTable="Kontaktná_osobaColumn" msprop:Generator_UserColumnName="Kontaktná osoba" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefón" msprop:Generator_ColumnVarNameInTable="columnTelefón" msprop:Generator_ColumnPropNameInRow="Telefón" msprop:Generator_ColumnPropNameInTable="TelefónColumn" msprop:Generator_UserColumnName="Telefón" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fax" msprop:Generator_ColumnVarNameInTable="columnFax" msprop:Generator_ColumnPropNameInRow="Fax" msprop:Generator_ColumnPropNameInTable="FaxColumn" msprop:Generator_UserColumnName="Fax" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sídlo" msprop:Generator_ColumnVarNameInTable="columnSídlo" msprop:Generator_ColumnPropNameInRow="Sídlo" msprop:Generator_ColumnPropNameInTable="SídloColumn" msprop:Generator_UserColumnName="Sídlo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Adresa" msprop:Generator_ColumnVarNameInTable="columnAdresa" msprop:Generator_ColumnPropNameInRow="Adresa" msprop:Generator_ColumnPropNameInTable="AdresaColumn" msprop:Generator_UserColumnName="Adresa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PSČ" msprop:Generator_ColumnVarNameInTable="columnPSČ" msprop:Generator_ColumnPropNameInRow="PSČ" msprop:Generator_ColumnPropNameInTable="PSČColumn" msprop:Generator_UserColumnName="PSČ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Štát" msprop:Generator_ColumnVarNameInTable="columnŠtát" msprop:Generator_ColumnPropNameInRow="Štát" msprop:Generator_ColumnPropNameInTable="ŠtátColumn" msprop:Generator_UserColumnName="Štát" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IČO" msprop:Generator_ColumnVarNameInTable="columnIČO" msprop:Generator_ColumnPropNameInRow="IČO" msprop:Generator_ColumnPropNameInTable="IČOColumn" msprop:Generator_UserColumnName="IČO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DRČ" msprop:Generator_ColumnVarNameInTable="columnDRČ" msprop:Generator_ColumnPropNameInRow="DRČ" msprop:Generator_ColumnPropNameInTable="DRČColumn" msprop:Generator_UserColumnName="DRČ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Príjemca" msprop:Generator_ColumnVarNameInTable="columnPríjemca" msprop:Generator_ColumnPropNameInRow="Príjemca" msprop:Generator_ColumnPropNameInTable="PríjemcaColumn" msprop:Generator_UserColumnName="Príjemca" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PríjemcaSídlo" msprop:Generator_ColumnVarNameInTable="columnPríjemcaSídlo" msprop:Generator_ColumnPropNameInRow="PríjemcaSídlo" msprop:Generator_ColumnPropNameInTable="PríjemcaSídloColumn" msprop:Generator_UserColumnName="PríjemcaSídlo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PríjemcaAdresa" msprop:Generator_ColumnVarNameInTable="columnPríjemcaAdresa" msprop:Generator_ColumnPropNameInRow="PríjemcaAdresa" msprop:Generator_ColumnPropNameInTable="PríjemcaAdresaColumn" msprop:Generator_UserColumnName="PríjemcaAdresa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PríjemcaPSČ" msprop:Generator_ColumnVarNameInTable="columnPríjemcaPSČ" msprop:Generator_ColumnPropNameInRow="PríjemcaPSČ" msprop:Generator_ColumnPropNameInTable="PríjemcaPSČColumn" msprop:Generator_UserColumnName="PríjemcaPSČ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PríjemcaŠtát" msprop:Generator_ColumnVarNameInTable="columnPríjemcaŠtát" msprop:Generator_ColumnPropNameInRow="PríjemcaŠtát" msprop:Generator_ColumnPropNameInTable="PríjemcaŠtátColumn" msprop:Generator_UserColumnName="PríjemcaŠtát" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vykládka" msprop:Generator_ColumnVarNameInTable="columnVykládka" msprop:Generator_ColumnPropNameInRow="Vykládka" msprop:Generator_ColumnPropNameInTable="VykládkaColumn" msprop:Generator_UserColumnName="Vykládka" type="xs:int" minOccurs="0" />
+              <xs:element name="Mena" msprop:Generator_ColumnVarNameInTable="columnMena" msprop:Generator_ColumnPropNameInRow="Mena" msprop:Generator_ColumnPropNameInTable="MenaColumn" msprop:Generator_UserColumnName="Mena" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vytvorená" msprop:Generator_ColumnVarNameInTable="columnVytvorená" msprop:Generator_ColumnPropNameInRow="Vytvorená" msprop:Generator_ColumnPropNameInTable="VytvorenáColumn" msprop:Generator_UserColumnName="Vytvorená" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="37" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Zmenená" msprop:Generator_ColumnVarNameInTable="columnZmenená" msprop:Generator_ColumnPropNameInRow="Zmenená" msprop:Generator_ColumnPropNameInTable="ZmenenáColumn" msprop:Generator_UserColumnName="Zmenená" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Špecifikácia" msprop:Generator_ColumnVarNameInTable="columnŠpecifikácia" msprop:Generator_ColumnPropNameInRow="Špecifikácia" msprop:Generator_ColumnPropNameInTable="ŠpecifikáciaColumn" msprop:Generator_UserColumnName="Špecifikácia" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ObjednávkaZákZák" msprop:Generator_ColumnVarNameInTable="columnObjednávkaZákZák" msprop:Generator_ColumnPropNameInRow="ObjednávkaZákZák" msprop:Generator_ColumnPropNameInTable="ObjednávkaZákZákColumn" msprop:Generator_UserColumnName="ObjednávkaZákZák" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Zákazky" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

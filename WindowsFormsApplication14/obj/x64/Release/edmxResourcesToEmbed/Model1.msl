@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="novaDBcsharpModelStoreContainer" CdmEntityContainer="novaDBcsharpEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblObjednavkaDokumenty">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.tblObjednavkaDokumenty">
+        <MappingFragment StoreEntitySet="tblObjednavkaDokumenty">
+          <ScalarProperty Name="IdDokumenty" ColumnName="IdDokumenty" />
+          <ScalarProperty Name="IdObjednavka" ColumnName="IdObjednavka" />
+          <ScalarProperty Name="Dokument" ColumnName="Dokument" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblObjednavkaMaterial">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.tblObjednavkaMaterial">
+        <MappingFragment StoreEntitySet="tblObjednavkaMaterial">
+          <ScalarProperty Name="IdMaterial" ColumnName="IdMaterial" />
+          <ScalarProperty Name="IdObjednakva" ColumnName="IdObjednakva" />
+          <ScalarProperty Name="SylexPN" ColumnName="SylexPN" />
+          <ScalarProperty Name="MnozstvoMaterialu" ColumnName="MnozstvoMaterialu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblObjednavky">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.tblObjednavky">
+        <MappingFragment StoreEntitySet="tblObjednavky">
+          <ScalarProperty Name="IdObjednavka" ColumnName="IdObjednavka" />
+          <ScalarProperty Name="SylexObjednavka" ColumnName="SylexObjednavka" />
+          <ScalarProperty Name="Zakazka" ColumnName="Zakazka" />
+          <ScalarProperty Name="ZakaznickaObjednavka" ColumnName="ZakaznickaObjednavka" />
+          <ScalarProperty Name="StavObjednavka" ColumnName="StavObjednavka" />
+          <ScalarProperty Name="ObjVytvoril" ColumnName="ObjVytvoril" />
+          <ScalarProperty Name="ObjVytvorilDatum" ColumnName="ObjVytvorilDatum" />
+          <ScalarProperty Name="wlNominal_1" ColumnName="wlNominal_1" />
+          <ScalarProperty Name="wlNominal_2" ColumnName="wlNominal_2" />
+          <ScalarProperty Name="Snimac" ColumnName="Snimac" />
+          <ScalarProperty Name="PnVlakna" ColumnName="PnVlakna" />
+          <ScalarProperty Name="PnVyrobku" ColumnName="PnVyrobku" />
+          <ScalarProperty Name="PopisVlakna" ColumnName="PopisVlakna" />
+          <ScalarProperty Name="LotVlakna" ColumnName="LotVlakna" />
+          <ScalarProperty Name="PoradoveCisloVlakna" ColumnName="PoradoveCisloVlakna" />
+          <ScalarProperty Name="Rework" ColumnName="Rework" />
+          <ScalarProperty Name="PocetFBG" ColumnName="PocetFBG" />
+          <ScalarProperty Name="ProcessReportVytvoril" ColumnName="ProcessReportVytvoril" />
+          <ScalarProperty Name="ProcessReportVytvorilKedy" ColumnName="ProcessReportVytvorilKedy" />
+          <ScalarProperty Name="ProcessReportCesta" ColumnName="ProcessReportCesta" />
+          <ScalarProperty Name="KalibracnyListVytvoril" ColumnName="KalibracnyListVytvoril" />
+          <ScalarProperty Name="KalibracnyListVytvorilKedy" ColumnName="KalibracnyListVytvorilKedy" />
+          <ScalarProperty Name="KalibracnyListCesta" ColumnName="KalibracnyListCesta" />
+          <ScalarProperty Name="UkonceneKedy" ColumnName="UkonceneKedy" />
+          <ScalarProperty Name="UkonceneKto" ColumnName="UkonceneKto" />
+          <ScalarProperty Name="ExpedovaneKedy" ColumnName="ExpedovaneKedy" />
+          <ScalarProperty Name="ExpedovaneKto" ColumnName="ExpedovaneKto" />
+          <ScalarProperty Name="Oznacenie" ColumnName="Oznacenie" />
+          <ScalarProperty Name="ChybaKedy" ColumnName="ChybaKedy" />
+          <ScalarProperty Name="ChybaKto" ColumnName="ChybaKto" />
+          <ScalarProperty Name="KalibraciaResult" ColumnName="KalibraciaResult" />
+          <ScalarProperty Name="OdchylkaInterna" ColumnName="OdchylkaInterna" />
+          <ScalarProperty Name="OdchylkaZakaznik" ColumnName="OdchylkaZakaznik" />
+          <ScalarProperty Name="KontrolaSnimacaUsekomKvality" ColumnName="KontrolaSnimacaUsekomKvality" />
+          <ScalarProperty Name="DatumVytvoreniasnimaca" ColumnName="DatumVytvoreniasnimaca" />
+          <ScalarProperty Name="ontrolaSnimacaUsekomKvalityKto" ColumnName="ontrolaSnimacaUsekomKvalityKto" />
+          <ScalarProperty Name="ontrolaSnimacaUsekomKvalityKedy" ColumnName="ontrolaSnimacaUsekomKvalityKedy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblObjednavkyStav">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.tblObjednavkyStav">
+        <MappingFragment StoreEntitySet="tblObjednavkyStav">
+          <ScalarProperty Name="IdObjednavkyStav" ColumnName="IdObjednavkyStav" />
+          <ScalarProperty Name="StavObjednavky" ColumnName="StavObjednavky" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSnimaceZoznam">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.tblSnimaceZoznam">
+        <MappingFragment StoreEntitySet="tblSnimaceZoznam">
+          <ScalarProperty Name="IdSnimaceZoznam" ColumnName="IdSnimaceZoznam" />
+          <ScalarProperty Name="TypSnimaca" ColumnName="TypSnimaca" />
+          <ScalarProperty Name="Skupina" ColumnName="Skupina" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUzivatelia">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.tblUzivatelia">
+        <MappingFragment StoreEntitySet="tblUzivatelia">
+          <ScalarProperty Name="IdUzivatela" ColumnName="IdUzivatela" />
+          <ScalarProperty Name="Skupina" ColumnName="Skupina" />
+          <ScalarProperty Name="Meno" ColumnName="Meno" />
+          <ScalarProperty Name="Heslo" ColumnName="Heslo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Opravnenie" ColumnName="Opravnenie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblZakazky">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.tblZakazky">
+        <MappingFragment StoreEntitySet="tblZakazky">
+          <ScalarProperty Name="IdZakazka" ColumnName="IdZakazka" />
+          <ScalarProperty Name="CisloZakazky" ColumnName="CisloZakazky" />
+          <ScalarProperty Name="ZakazkaVytvoril" ColumnName="ZakazkaVytvoril" />
+          <ScalarProperty Name="ZakazkaVytvorilKedy" ColumnName="ZakazkaVytvorilKedy" />
+          <ScalarProperty Name="ZakazkaStav" ColumnName="ZakazkaStav" />
+          <ScalarProperty Name="Zakaznik" ColumnName="Zakaznik" />
+          <ScalarProperty Name="ZakazkaPoznamky" ColumnName="ZakazkaPoznamky" />
+          <ScalarProperty Name="Vykladka" ColumnName="Vykladka" />
+          <ScalarProperty Name="DatumUkoncenia" ColumnName="DatumUkoncenia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblZakazkyStav">
+      <EntityTypeMapping TypeName="novaDBcsharpModel.tblZakazkyStav">
+        <MappingFragment StoreEntitySet="tblZakazkyStav">
+          <ScalarProperty Name="IdStav" ColumnName="IdStav" />
+          <ScalarProperty Name="StavZakazky" ColumnName="StavZakazky" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

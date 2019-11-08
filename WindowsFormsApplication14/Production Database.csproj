@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D0C0137-DD90-49B9-BA9E-E912DF6226EB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication14</RootNamespace>
+    <AssemblyName>DBSV2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>ftp://mukovnik.xyz/DBS/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://mukovnik.xyz/files/DBS/</InstallUrl>
+    <UpdateUrl>http://mukovnik.xyz/files/DBS/</UpdateUrl>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>95</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>38BB3F24412F8833BF0257815E3BD0C346F96E32</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CSC.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>http://timestamp.verisign.com/scripts/timstamp.dll</ManifestTimestampUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>CSC.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ikona dbs v2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=12.4.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=12.4.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Layout.Design, Version=12.4.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=12.4.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=12.4.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=12.4.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.Instrumentation, Version=12.4.0.2, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.SuperGrid.Design, Version=12.4.0.2, Culture=neutral, PublicKeyToken=1fea3f5d8d482bff, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.TreeGX, Version=12.4.0.2, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL" />
+    <Reference Include="GemBox.Spreadsheet, Version=39.3.30.1207, Culture=neutral, PublicKeyToken=b1b72c69714d4847, processorArchitecture=MSIL">
+      <HintPath>..\packages\GemBox.Spreadsheet.39.3.30.1207\lib\net30\GemBox.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\MarekHelper\packages\Excel-DNA.Interop.14.0.1\lib\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.0\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.ExtendedLinguisticServices, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.0\lib\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Sensors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.0\lib\Microsoft.WindowsAPICodePack.Sensors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.0\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.ShellExtensions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.0\lib\Microsoft.WindowsAPICodePack.ShellExtensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DeploymentClass.cs" />
+    <Compile Include="Formulare smímačov\SmartPatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulare smímačov\SmartPatch.Designer.cs">
+      <DependentUpon>SmartPatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulare smímačov\Univerzal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulare smímačov\Univerzal.Designer.cs">
+      <DependentUpon>Univerzal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulare smímačov\Konektorovanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulare smímačov\Konektorovanie.Designer.cs">
+      <DependentUpon>Konektorovanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulare smímačov\Konektorovanie_original.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulare smímačov\Konektorovanie_original.Designer.cs">
+      <DependentUpon>Konektorovanie_original.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\EditZakazky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\EditZakazky.Designer.cs">
+      <DependentUpon>EditZakazky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\NovyUzivatel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\NovyUzivatel.Designer.cs">
+      <DependentUpon>NovyUzivatel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISYSDataSet.cs">
+      <DependentUpon>ISYSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ISYSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ISYSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Kalibracie\STRAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Kalibracie\STRAIN.Designer.cs">
+      <DependentUpon>STRAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Kalibracie\STRAIN_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Kalibracie\STRAIN_new.Designer.cs">
+      <DependentUpon>STRAIN_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Kalibracie\TEMP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Kalibracie\TEMP.Designer.cs">
+      <DependentUpon>TEMP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Kalibracie\TEMP_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Kalibracie\TEMP_new.Designer.cs">
+      <DependentUpon>TEMP_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Konfiguracie\Nastavenia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Konfiguracie\Nastavenia.Designer.cs">
+      <DependentUpon>Nastavenia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="novaDBcsharpDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>novaDBcsharpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Prihlásenie\Prihlásenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prihlásenie\Prihlásenie.Designer.cs">
+      <DependentUpon>Prihlásenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Zakazky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\Zakazky.Designer.cs">
+      <DependentUpon>Zakazky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\NovaZakazka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hlavný formulár - Zákazky\NovaZakazka.Designer.cs">
+      <DependentUpon>NovaZakazka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reporty\Rmax_values.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporty\Rmax_values.Designer.cs">
+      <DependentUpon>Rmax_values.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporty\Report_FBGS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporty\Report_FBGS.Designer.cs">
+      <DependentUpon>Report_FBGS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BarRevizieFormulare.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\BarRevizieFormulare.Designer.cs">
+      <DependentUpon>BarRevizieFormulare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DownStatusBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DownStatusBar.Designer.cs">
+      <DependentUpon>DownStatusBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OvladaciPanelFormulare.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OvladaciPanelFormulare.Designer.cs">
+      <DependentUpon>OvladaciPanelFormulare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OvladaciPanelObjednavky.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OvladaciPanelObjednavky.Designer.cs">
+      <DependentUpon>OvladaciPanelObjednavky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OvladaciPanelObjednavkyNEW.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OvladaciPanelObjednavkyNEW.Designer.cs">
+      <DependentUpon>OvladaciPanelObjednavkyNEW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OvladaciPanelObjednavkySF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OvladaciPanelObjednavkySF.Designer.cs">
+      <DependentUpon>OvladaciPanelObjednavkySF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\VystupnaKontrolaScr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\VystupnaKontrolaScr.Designer.cs">
+      <DependentUpon>VystupnaKontrolaScr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ZaznamChyb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ZaznamChyb.Designer.cs">
+      <DependentUpon>ZaznamChyb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ZaznamChybMaterial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ZaznamChybMaterial.Designer.cs">
+      <DependentUpon>ZaznamChybMaterial.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulare smímačov\SmartPatch.resx">
+      <DependentUpon>SmartPatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulare smímačov\Univerzal.resx">
+      <DependentUpon>Univerzal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulare smímačov\Konektorovanie.resx">
+      <DependentUpon>Konektorovanie.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulare smímačov\Konektorovanie_original.resx">
+      <DependentUpon>Konektorovanie_original.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hlavný formulár - Zákazky\EditZakazky.resx">
+      <DependentUpon>EditZakazky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hlavný formulár - Zákazky\NovyUzivatel.resx">
+      <DependentUpon>NovyUzivatel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hlavný formulár - Zákazky\Kalibracie\STRAIN.resx">
+      <DependentUpon>STRAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hlavný formulár - Zákazky\Kalibracie\STRAIN_new.resx">
+      <DependentUpon>STRAIN_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hlavný formulár - Zákazky\Kalibracie\TEMP.resx">
+      <DependentUpon>TEMP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hlavný formulár - Zákazky\Kalibracie\TEMP_new.resx">
+      <DependentUpon>TEMP_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Konfiguracie\Nastavenia.resx">
+      <DependentUpon>Nastavenia.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporty\Rmax_values.resx">
+      <DependentUpon>Rmax_values.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporty\Report_FBGS.resx">
+      <DependentUpon>Report_FBGS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prihlásenie\Prihlásenie.resx">
+      <DependentUpon>Prihlásenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hlavný formulár - Zákazky\Zakazky.resx">
+      <DependentUpon>Zakazky.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hlavný formulár - Zákazky\NovaZakazka.resx">
+      <DependentUpon>NovaZakazka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\BarRevizieFormulare.resx">
+      <DependentUpon>BarRevizieFormulare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DownStatusBar.resx">
+      <DependentUpon>DownStatusBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OvladaciPanelFormulare.resx">
+      <DependentUpon>OvladaciPanelFormulare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OvladaciPanelObjednavky.resx">
+      <DependentUpon>OvladaciPanelObjednavky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OvladaciPanelObjednavkyNEW.resx">
+      <DependentUpon>OvladaciPanelObjednavkyNEW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OvladaciPanelObjednavkySF.resx">
+      <DependentUpon>OvladaciPanelObjednavkySF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\VystupnaKontrolaScr.resx">
+      <DependentUpon>VystupnaKontrolaScr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ZaznamChyb.resx">
+      <DependentUpon>ZaznamChyb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ZaznamChybMaterial.resx">
+      <DependentUpon>ZaznamChybMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="ClassDiagram6.cd" />
+    <None Include="ClassDiagram7.cd" />
+    <None Include="ClassDiagram8.cd" />
+    <None Include="CSC.pfx" />
+    <None Include="ISYSDataSet.xsc">
+      <DependentUpon>ISYSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ISYSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ISYSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ISYSDataSet.xss">
+      <DependentUpon>ISYSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Konfiguracie\app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="novaDBcsharpDataSet.xsc">
+      <DependentUpon>novaDBcsharpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="novaDBcsharpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>novaDBcsharpDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="novaDBcsharpDataSet.xss">
+      <DependentUpon>novaDBcsharpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataSet\" />
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3106417963_9819b70aa3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window_app_list_info_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window_app_list_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web_layout_error_32_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bom_creator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chybne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duplicate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hammer_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\make_xls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1354440580_copy doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1354440868_stock_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sylex_logo.png" />
+    <EmbeddedResource Include="email_chyba.html" />
+    <Content Include="ikona dbs v2.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+c:\users\marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\bin\Debug\WindowsFormsApplication14.exe
+c:\users\marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\bin\Debug\WindowsFormsApplication14.pdb
+c:\users\marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.Properties.Resources.resources
+c:\users\marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.exe
+c:\users\marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.pdb
+C:\Users\Marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\bin\Debug\WindowsFormsApplication14.exe.config
+C:\Users\Marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.NovaZakazka.resources
+C:\Users\Marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.Zakazky.resources
+C:\Users\Marek\documents\visual studio 2010\Projects\WindowsFormsApplication14\WindowsFormsApplication14\obj\x86\Debug\WindowsFormsApplication14.Prihlásenie.resources

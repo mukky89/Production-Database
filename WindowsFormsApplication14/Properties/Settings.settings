@@ -1,0 +1,43 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsFormsApplication14.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Login" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Opravnenie" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CisloZakazky" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Objednavka" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Snimac" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="formulare_otvorenie" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="novaDBcsharpConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DESKTOP-5K6HKKB;Initial Catalog=novaDBcsharp;User ID=mukky;Password=marek0</Value>
+    </Setting>
+    <Setting Name="ISYSconnectionstring" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DESKTOP-5K6HKKB;Initial Catalog=ISYS;User ID=mukky;Password=marek0</Value>
+    </Setting>
+    <Setting Name="rework" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ISYSConnectionString1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DESKTOP-5K6HKKB;Initial Catalog=ISYS;User ID=mukky;Password=marek0</Value>
+    </Setting>
+    <Setting Name="novaDBcsharpConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-5K6HKKB;Initial Catalog=novaDBcsharp;User ID=mukky;Password=marek0&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-5K6HKKB;Initial Catalog=novaDBcsharp;User ID=mukky;Password=marek0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
